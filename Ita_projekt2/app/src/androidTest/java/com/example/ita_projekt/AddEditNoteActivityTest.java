@@ -49,20 +49,20 @@ public class AddEditNoteActivityTest {
     }
 
     @Test
-    public void  NaslovJediTestExpresso(){
+    public void  NaslovJediTestEspresso(){
         onView(withId(R.id.text_view_title)).perform(ViewActions.clearText())
                 .perform(typeText(""),closeSoftKeyboard());
 
     }
     @Test
-    public void  OpisJediTestExpresso(){
+    public void  OpisJediTestEspresso(){
         onView(withId(R.id.text_view_description)).perform(ViewActions.clearText())
                 .perform(typeText(""),closeSoftKeyboard());
 
     }
 
     @Test
-    public void  TezavnostJediTestExpresso(){
+    public void  TezavnostJediTestEspresso(){
         onView(withId(R.id.text_view_priority)).perform(ViewActions.clearText())
                 .perform(typeText(""),closeSoftKeyboard());
 

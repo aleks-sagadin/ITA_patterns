@@ -42,7 +42,6 @@ public class MainActivityTest {
         mActivity = mActivityTestRule.getActivity();
     }
 
-
     /**
      * TEST Z UPORABO OBJECT PATTERN
      *
@@ -53,9 +52,6 @@ public class MainActivityTest {
         assertNotNull(view);
     }
 
-    /**
-     * Uporaba Instrumental testov:  v tem primetu se preverjajo ce so stringi prazni
-     * */
     @Test
     public void checkStrings(){
         onView(withId(R.id.username)).perform(ViewActions.clearText())

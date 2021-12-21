@@ -18,7 +18,7 @@ public class Options extends AppCompatActivity {
         UserNameAndPass heavy = holderNaive.getUserNameAndPass();
         heavy.getPassword();
 
-        System.out.println("PEDER toLE JE: " +heavy);
-        System.out.println("PEDROSA: " + heavy.getPassword());
+        System.out.println("Idi rajsi domu ce ne dela: " +heavy);
+        System.out.println("Ce nimas gesla iji domu: " + heavy.getPassword());
     }
 }
